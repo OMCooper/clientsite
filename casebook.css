@@ -1,0 +1,73 @@
+body {background-color: azure}
+
+body {font-family:Georgia, serif}
+body {font-size: 20px}
+body {text-align: left}
+ul {list-style-type: none;}
+a {text-decoration: none;}
+p {color:#cd044a}
+header {color:#cd044a; font-family:fantasy; text-align: center; font-size: 40px; background-color: antiquewhite} 
+h {color:#5ab58d ; font-size: 30px}
+li {color: #cd044a}
+
+<style>
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+}
+
+.topnav {
+  overflow: auto;
+  background-color:#5ab58d;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color:antiquewhite;
+  color:#cd044a;
+}
+
+.topnav a.active {
+  background-color:aquamarine;
+  color: darkcyan;
+}
+footer {color:#cd044a; text-align: center; padding: inherit}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: cadetblue;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+a {color:cadetblue; text-decoration: underline}
+
+footer {background-color: antiquewhite}
+</style>
